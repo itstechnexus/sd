@@ -1,0 +1,85 @@
+body{
+    width: 100vw;
+    height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    margin: 0;
+    background-color: #A52BFF;
+}
+.de{
+    width:95vw;
+    height: 95vh;
+    padding: 0;
+    margin: 0;
+    background:url("img/Group 28.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+header{
+    width: inherit;
+    padding: 30px;
+    padding-left: 50px;
+    box-sizing: border-box;
+    /* background: red; */
+}
+.container{
+    widows: inherit;
+    margin-top: 2em; 
+}
+ @media (min-width: 768px) { 
+     header{
+         padding-left: 100px;
+     }
+    .container{
+        margin-top: 10em; 
+        
+    }
+  }
+.container .row div h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+}
+.container .row .login-form section{
+    width:400px;
+    height:500px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+.container .row .login-form section form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding:05px;
+    padding-top: 30px;
+}
+.container .row .login-form section form *{
+    width:300px;
+    margin-top: 40px;
+}
+.container .row .login-form section form input{
+    height:50px;
+    border-radius: 60px;
+    border:1px solid #2B9DFF;
+    padding-left: 10px;
+    color:#E6E6E6;
+}
+.container .row .login-form section form input:focus{
+    outline: none;
+}
+.container .row .login-form section form {
+    color:#E6E6E6;
+}
+.container .row .login-form section form input::-webkit-input-placeholder { 
+    color: #E6E6E6;
+  }
+.container .row .login-form section form .btn-login{
+    height:50px;
+    border-radius: 60px;
+    background: #A52BFF;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
